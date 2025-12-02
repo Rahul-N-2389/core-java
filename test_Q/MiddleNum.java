@@ -4,7 +4,7 @@ package test_Q;
 
 public class MiddleNum {
 	public void getMidleNum() {
-		int num=56453;
+		int num=7524;
 		if (num!=0) {
 			int rem=num/10;
 			

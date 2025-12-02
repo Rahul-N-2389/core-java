@@ -3,7 +3,7 @@ package test_Q;
 public class Example2 {
 	
 	public void getAdd(int num) {
-		int Input=num;
+		
 		int add=0;
 		while(num !=0) {
 			int sum = num%10;

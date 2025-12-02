@@ -8,14 +8,14 @@ public class Example3 {
 		System.out.print(num +"! =");
 		int fact=1;
 		int i=1;
-		while(i>=num) {
+		while(i<=num) {
 			fact=fact*i;
 			
-			System.out.print(i+"*");
+			System.out.print(fact+"*");
 			i++;
 		}
-		
 		System.out.println(" = " +fact);
+		
 	}
 
 	public static void main(String[] args) {
