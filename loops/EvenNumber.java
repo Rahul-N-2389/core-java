@@ -13,7 +13,5 @@ public class EvenNumber {
 			}
 			
 		}System.out.println("Odd numbers : "+str);
-
 	}
-
 }

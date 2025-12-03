@@ -4,9 +4,9 @@ package conditionalStatements;
 public class CheckMarks {
 	public void numChecking(int marks) {
 		if (marks>35 && marks<=75) {
-			System.out.println("Pass");
+			System.out.println(marks +" : Pass");
 		} if (marks>75 && marks<=100) {
-			System.out.println("Distinction");
+			System.out.println(marks +" : Distinction");
 		}
 	}
 	public static void main(String[] args) {

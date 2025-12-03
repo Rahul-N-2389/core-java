@@ -6,9 +6,9 @@ public class CheckNum {
 		if (number==0) {
 			System.out.println("Zero");
 		}else if (number>0) {
-			System.out.println("Positive Number");
+			System.out.println(number +" : Positive Number");
 		}else if (number<0) {
-			System.out.println("Negative Number");
+			System.out.println(number +" : Negative Number");
 		}
 	}
 	public static void main(String[] args) {

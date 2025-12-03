@@ -2,11 +2,11 @@ package conditionalStatements;
 
 
 public class CheckDay {
-	public void numChecking(int a, int b) {
-		switch (a,b) {
+	public void numChecking(int Day) {
+		switch (Day) {
 		
 		case 1:
-			System.out.println(a + b);
+			System.out.println("mon Day");
 			break;
 		case 2:
 			System.out.println("Tues day");
